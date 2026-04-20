@@ -19,7 +19,7 @@ const AddCoffee = () => {
     console.log(newCoffee);
 
     // এখানে আপনার backend API কল করবেন
-    fetch("http://localhost:5000/coffee", {
+    fetch("https://coffee-shop-r1gy.vercel.app/coffee", {
       method: "POST",
       headers: {
         "content-type": "application/json",
